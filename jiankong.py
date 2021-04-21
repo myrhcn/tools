@@ -56,7 +56,7 @@ def sendNews():
                         "isAtAll": False
                     },
                     "text": {
-                        "content": "呱呱" + res_msg
+                        "content": "xx" + res_msg
                     }
                 }
                 response = requests.post(url=api, data=json.dumps(json_text), headers=headers)
