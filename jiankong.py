@@ -40,7 +40,8 @@ def sendNews():
 
         if flag != total_count:
             if total_count == msg[0]:
-                api = 'https://oapi.dingtalk.com/robot/send?access_token=8b1d72a7080011bbfbcc5a4d92d13e2af426c75a5fe6a3641d57f39d9ce3cf1c'
+                api = 'https://oapi.dingtalk.com/robot/send?access_token= '  
+                #钉钉接口
                 headers = {
                     'User-Agnet': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; chromeframe/13.0.782.215)',
                     'Content-Type': 'application/json;charset=utf-8'
@@ -71,7 +72,7 @@ def sendNews():
             else:
                 pass
     except Exception as e:
-        print(e, "呱呱,出错了！")
+        print(e, "xx,出错了！")
         raise e
 
 
